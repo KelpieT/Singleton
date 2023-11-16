@@ -6,7 +6,7 @@ namespace Viter
     {
         private static T instance;
 
-        public static T Istance { get => instance; }
+        public static T Instance { get => instance; }
 
         protected virtual void Awake()
         {
@@ -22,6 +22,6 @@ namespace Viter
                 }
             }
         }
-        
+
     }
 }
